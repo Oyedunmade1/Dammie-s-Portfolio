@@ -1,4 +1,4 @@
-*{
+ *{
     padding: 0;
     margin: 0;
     font-family: 'josefin Sans', sans-serif;
@@ -103,10 +103,20 @@ h4{
     top: 6px;
     right: 6px;
 }
-
+#gallery{
+    height: 100px;
+    width: 80vw;
+    display: flex;
+    
+    
+}
+.gallery-pix{
+    width: 10px;
+    height: 10px;
+}
 .about{
-    width: 100%;
-    padding: 100px 0px;
+     width: 100%;
+    padding: 70px 0px;
     background-color: #191919;
 }
 .about img{
@@ -145,6 +155,7 @@ h4{
     margin-bottom: 45px;
     text-align: center;
 }
+
 button{
     background-color: #f9004d;
     color: white;
