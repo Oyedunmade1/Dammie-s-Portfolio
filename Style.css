@@ -317,4 +317,39 @@
     bottom: 35px;
     font-size: 14px;
   }
-  
+  @media screen and (max-width: 900px) {
+    .main{
+             width: 100%;
+            /* border: 2px solid red; */
+            align-items: center;
+            justify-content: space-around;
+            flex-direction: column;
+        }
+        .box{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+        nav{
+            display: none;
+        }    
+        .about img{
+            object-fit: cover;
+            width: 95%;
+            margin-bottom: 3rem;
+        }
+        .about-text{
+            width:95%;
+        }
+        .about-text h2{
+            font-size: 35px;
+        }
+    .card{
+        width: 95%;
+    }    
+    .service{
+        height: 100%;
+        padding: 20px 0;
+    }
+      }
